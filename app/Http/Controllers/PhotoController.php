@@ -72,7 +72,7 @@ class PhotoController extends Controller
         if ($validator->fails()) {
            $result['errors'][] = $validator->errors()->get('*');
         } else {
-            $folder = '/uploads/images/';
+            $folder = 'public/uploads/images/';
             $uploaded = $this->uploadFromUrl($url, $folder, $name);
             $result['success'] = $uploaded;
         }
