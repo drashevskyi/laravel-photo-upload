@@ -8,5 +8,3 @@ App to add images by upload and by api, to review images with dates
 6. Create the symbolic link >php artisan storage:link
 7. To run tests >php artisan test
 7. To start the app >php artisan serve
-
-App is accessed using /public directory
