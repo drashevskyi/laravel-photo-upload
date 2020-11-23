@@ -27,7 +27,7 @@
         <div class="col-sm-6">
             <div class="jumbotron" style="padding: 20px;">
                 <h4>Upload API</h4>
-                <p>In case you would like to upload an image using api, just call <kbd>/api/photos/store?url={path to file}&date={image date}</kbd></p>
+                <p>In case you would like to upload an image using api, just call <kbd>/api/photos/store?url={path to file}&date={image date d-m-Y}</kbd></p>
             </div>
         </div>
     </div>
